@@ -4,11 +4,11 @@ import org.jetbrains.annotations.Contract;
 
 public class Converter {
 
-    private static int rubleToEvro(int value) {
+    public static int rubleToEvro(int value) {
         return value / 89;
     }
 
-    private static int rubleToDollar(int value) {
+    public static int rubleToDollar(int value) {
         return value / 73;
     }
 
