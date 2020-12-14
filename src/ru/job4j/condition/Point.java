@@ -6,6 +6,7 @@ public class Point {
 
         double powX = Math.pow(x1 + x2, 2);
         double powY = Math.pow(y1 + y2, 2);
+
         return Math.sqrt(powX + powY);
     }
 
