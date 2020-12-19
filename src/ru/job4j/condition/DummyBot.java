@@ -18,17 +18,5 @@ public class DummyBot {
         System.out.println(rslHello);
         String rslBye = DummyBot.answer("Bye");
         System.out.println(rslBye);
-
-        int a = 3;
-        int b = 2;
-        int c = 5;
-
-        if (a >= b && c <= a) {
-            System.out.println("a = " + a);
-        } else if (b >= a && c <= b) {
-            System.out.println("b = " + b);
-        } else {
-            System.out.println("c = " + c);
-        }
     }
 }
