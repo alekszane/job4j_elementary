@@ -12,11 +12,11 @@ public class LeapYear {
     public static void main(String[] args) {
         boolean b = checkYear(2019);
         System.out.println(b);
-        boolean c = checkYear(1800);
-        System.out.println(c);
-        boolean d = checkYear(2020);
-        System.out.println(d);
-        boolean e = checkYear(2000);
-        System.out.println(e);
+        b = checkYear(1800);
+        System.out.println(b);
+        b = checkYear(2020);
+        System.out.println(b);
+        b = checkYear(2000);
+        System.out.println(b);
     }
 }
