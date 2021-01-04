@@ -47,8 +47,10 @@
       <file name="F:/IdeaProject/SimpleDotCom/src/SimpleDotComGame.java" timestamp="1592079636549">
         <mark key="[" line="0" column="29" />
       </file>
-      <file name="F:/IdeaProject/job4j_elementary/src/ru/job4j/array/SkipNegative.java" timestamp="1609738031139">
-        <mark key="[" line="2" column="26" />
+      <file name="F:/IdeaProject/job4j_elementary/src/ru/job4j/array/SkipNegative.java" timestamp="1609739489890">
+        <mark key="[" line="6" column="21" />
+        <mark key="]" line="5" column="32" />
+        <mark key="." line="5" column="32" />
       </file>
       <file name="/fragment.java" timestamp="1609738158701">
         <mark key="[" line="0" column="0" />
@@ -68,9 +70,8 @@
         <text>import static com.sun.org.apache.xerces.internal.util.PropertyState.is;
 import static org.hamcrest.MatcherAssert.assertThat;</text>
       </register>
-      <register name="&quot;" type="2">
-        <text>import static com.sun.org.apache.xerces.internal.util.PropertyState.is;
-import static org.hamcrest.MatcherAssert.assertThat;</text>
+      <register name="&quot;" type="4">
+        <text>]</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">CmltcG9ydCBzdGF0aWMgY29tLnN1bi5vcmcuYXBhY2hlLnhlcmNlcy5pbnRlcm5hbC51dGlsLlByb3BlcnR5U3RhdGUuaXM7Cg==</text>
@@ -82,7 +83,7 @@ import static org.hamcrest.MatcherAssert.assertThat;</text>
         <text>import static org.junit.jupiter.api.Assertions*;</text>
       </register>
       <register name="-" type="4">
-        <text>.</text>
+        <text>]</text>
       </register>
     </registers>
   </component>
