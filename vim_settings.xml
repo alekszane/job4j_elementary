@@ -1,0 +1,70 @@
+<application>
+  <component name="VimEditorSettings">
+    <editor />
+  </component>
+  <component name="VimKeySettings">
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed F</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed S</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed X</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="F:/IdeaProject/SimpleDotCom/src/SimpleDotComTester.java" timestamp="1592770345461">
+        <mark key="[" line="2" column="0" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1609734246650">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="F:/IdeaProject/SimpleDotCom/src/SimpleDotCom.java" timestamp="1592771385258">
+        <mark key="'" line="16" column="11" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="24" column="4" />
+        <mark key="." line="24" column="4" />
+      </file>
+      <file name="F:/IdeaProject/SimpleDotCom/src/SimpleDotComGame.java" timestamp="1592079636549">
+        <mark key="[" line="0" column="29" />
+      </file>
+      <file name="F:/IdeaProject/job4j_elementary/src/ru/job4j/array/MinDiapason.java" timestamp="1609734493590">
+        <mark key="[" line="5" column="26" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="15" column="11" filename="F:/IdeaProject/SimpleDotCom/src/SimpleDotCom.java" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IA==</text>
+      </register>
+      <register name="-" type="4">
+        <text encoding="base64">IA==</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-dir>0</last-dir>
+      <show-last>false</show-last>
+    </search>
+  </component>
+  <component name="VimSettings">
+    <state version="6" enabled="true" />
+    <notifications>
+      <idea-join enabled="false" />
+      <idea-put enabled="false" />
+    </notifications>
+  </component>
+</application>
