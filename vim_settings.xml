@@ -21,6 +21,9 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="F:/IdeaProject/job4j_elementary/src/ru/job4j/converter/Converter.java" timestamp="1609737604024">
+        <mark key="[" line="2" column="0" />
+      </file>
       <file name="F:/IdeaProject/SimpleDotCom/src/SimpleDotComTester.java" timestamp="1592770345461">
         <mark key="[" line="2" column="0" />
       </file>
@@ -33,15 +36,27 @@
         <mark key="]" line="24" column="4" />
         <mark key="." line="24" column="4" />
       </file>
+      <file name="F:/IdeaProject/job4j_elementary/test/ru/job4j/array/SkipNegativeTest.java" timestamp="1609738371911">
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="7" column="0" />
+        <mark key="." line="7" column="0" />
+      </file>
       <file name="F:/IdeaProject/job4j_elementary/src/ru/job4j/array/MatrixFind.java" timestamp="1609736203626">
         <mark key="[" line="19" column="25" />
       </file>
       <file name="F:/IdeaProject/SimpleDotCom/src/SimpleDotComGame.java" timestamp="1592079636549">
         <mark key="[" line="0" column="29" />
       </file>
+      <file name="F:/IdeaProject/job4j_elementary/src/ru/job4j/array/SkipNegative.java" timestamp="1609738031139">
+        <mark key="[" line="2" column="26" />
+      </file>
+      <file name="/fragment.java" timestamp="1609738158701">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="F:/IdeaProject/job4j_elementary/src/ru/job4j/array/MinDiapason.java" timestamp="1609734493590">
         <mark key="[" line="5" column="26" />
       </file>
+      <file name="F:/IdeaProject/job4j_elementary/test/ru/job4j/loop/CounterTest.java" timestamp="1609737676925" />
     </filemarks>
     <jumps>
       <jump line="15" column="11" filename="F:/IdeaProject/SimpleDotCom/src/SimpleDotCom.java" />
@@ -49,11 +64,25 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+      <register name="1" type="2">
+        <text>import static com.sun.org.apache.xerces.internal.util.PropertyState.is;
+import static org.hamcrest.MatcherAssert.assertThat;</text>
+      </register>
+      <register name="&quot;" type="2">
+        <text>import static com.sun.org.apache.xerces.internal.util.PropertyState.is;
+import static org.hamcrest.MatcherAssert.assertThat;</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">CmltcG9ydCBzdGF0aWMgY29tLnN1bi5vcmcuYXBhY2hlLnhlcmNlcy5pbnRlcm5hbC51dGlsLlByb3BlcnR5U3RhdGUuaXM7Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text>import static com.sun.org.apache.xerces.internal.util.PropertyState.is;</text>
+      </register>
+      <register name="4" type="2">
+        <text>import static org.junit.jupiter.api.Assertions*;</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>.</text>
       </register>
     </registers>
   </component>
