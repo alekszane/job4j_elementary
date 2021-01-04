@@ -16,6 +16,9 @@
       <shortcut-conflict owner="vim">
         <text>ctrl pressed V</text>
       </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed C</text>
+      </shortcut-conflict>
     </shortcut-conflicts>
   </component>
   <component name="VimMarksSettings">
@@ -27,7 +30,7 @@
       <file name="F:/IdeaProject/SimpleDotCom/src/SimpleDotComTester.java" timestamp="1592770345461">
         <mark key="[" line="2" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1609734630779">
+      <file name="/Dummy.txt" timestamp="1609740392214">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="F:/IdeaProject/SimpleDotCom/src/SimpleDotCom.java" timestamp="1592771385258">
@@ -36,8 +39,8 @@
         <mark key="]" line="24" column="4" />
         <mark key="." line="24" column="4" />
       </file>
-      <file name="F:/IdeaProject/job4j_elementary/test/ru/job4j/array/SkipNegativeTest.java" timestamp="1609738371911">
-        <mark key="[" line="7" column="0" />
+      <file name="F:/IdeaProject/job4j_elementary/test/ru/job4j/array/SkipNegativeTest.java" timestamp="1609740492316">
+        <mark key="[" line="8" column="0" />
         <mark key="]" line="7" column="0" />
         <mark key="." line="7" column="0" />
       </file>
@@ -52,7 +55,7 @@
         <mark key="]" line="5" column="32" />
         <mark key="." line="5" column="32" />
       </file>
-      <file name="/fragment.java" timestamp="1609738158701">
+      <file name="/fragment.java" timestamp="1609740392280">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="F:/IdeaProject/job4j_elementary/src/ru/job4j/array/MinDiapason.java" timestamp="1609734493590">
@@ -94,7 +97,7 @@ import static org.hamcrest.MatcherAssert.assertThat;</text>
     </search>
   </component>
   <component name="VimSettings">
-    <state version="6" enabled="true" />
+    <state version="6" enabled="false" />
     <notifications>
       <idea-join enabled="false" />
       <idea-put enabled="false" />
