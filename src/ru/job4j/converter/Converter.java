@@ -1,7 +1,5 @@
 package ru.job4j.converter;
 
-import org.jetbrains.annotations.Contract;
-
 public class Converter {
 
     public static int rubleToEvro(int value) {
