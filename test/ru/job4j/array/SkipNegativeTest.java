@@ -8,7 +8,7 @@ import static org.junit.Assert.assertThat;
 
 public class SkipNegativeTest {
     @Test
-    public void skip() {
+    public void whenOneNegative() {
         int[][] in = {
                 {1, -2},
                 {1, 2}
@@ -22,7 +22,7 @@ public class SkipNegativeTest {
     }
 
     @Test
-    public void skip1() {
+    public void whenAllNegative() {
         int[][] in = {
                 {-1, -2},
                 {-1, -2}
