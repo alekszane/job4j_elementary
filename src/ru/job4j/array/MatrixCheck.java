@@ -11,4 +11,15 @@ public class MatrixCheck {
         }
         return rls;
     }
+
+    public static boolean monoVertical(char[][] board, int column) {
+        boolean result = true;
+        for (int i = 0; i < board[column].length; i++) {
+            if (board[i][column] != (int)'X') {
+                result = false;
+                break;
+            }
+        }
+        return result;
+    }
 }
