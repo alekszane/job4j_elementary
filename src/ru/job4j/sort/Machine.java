@@ -9,19 +9,16 @@ public class Machine {
         int[] rsl = new int[100];
         int size = 0;
 
-        if (diffirence == 0) {
-            rsl[0] = 0;
-        }
-            for (int i = 0; i < coins.length; i++) {
-                while (diffirence > 0) {
-                    rsl[i] = coins[i];
+        for (int i = 0; i < coins.length; i++) {
+            for (int j = 0; j <= diffirence % coins[i]; j++) {
+                while (diffirence >= coins[i]) {
+                    rsl[size] = coins[i];
                     diffirence = diffirence - coins[i];
                     size++;
-                    if (diffirence < coins[i]) {
-                        break;
-                    }
+                    j++;
                 }
             }
+        }
         return Arrays.copyOf(rsl, size);
     }
 }
