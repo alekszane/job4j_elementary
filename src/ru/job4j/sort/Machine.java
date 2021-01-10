@@ -10,13 +10,10 @@ public class Machine {
         int size = 0;
 
         for (int i = 0; i < coins.length; i++) {
-            for (int j = 0; j <= diffirence % coins[i]; j++) {
-                while (diffirence >= coins[i]) {
-                    rsl[size] = coins[i];
-                    diffirence = diffirence - coins[i];
-                    size++;
-                    j++;
-                }
+            while (diffirence >= coins[i]) {
+                rsl[size] = coins[i];
+                diffirence = diffirence - coins[i];
+                size++;
             }
         }
         return Arrays.copyOf(rsl, size);
