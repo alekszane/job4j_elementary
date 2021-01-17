@@ -6,6 +6,14 @@ public class Max {
         return rls;
     }
 
+    public double add(double firt, double second) {
+        return firt + second;
+    }
+
+    public double add(double firt, double second, double third) {
+        return add(firt, (second + third));
+    }
+
     public static void main(String[] args) {
         System.out.println(Max.max(5, 5));
     }

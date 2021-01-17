@@ -16,7 +16,7 @@ public class Triangle {
     }
 
     public double period(double a, double b, double c) {
-    return (a + b + c) / 2;
+    return a + b + c;
     }
 
     public double area() {
@@ -24,7 +24,7 @@ public class Triangle {
         double ab = first.distance(second);
         double ac = first.distance(third);
         double bc = second.distance(third);
-        double p = period(ab, ac, bc);
+        double p = period(ab, ac, bc) / 2;
         if (this.exist(ab, ac, bc)) {
             rsl = Math.sqrt(p * (p - ab) * (p - bc) * (p - ac));
         }
