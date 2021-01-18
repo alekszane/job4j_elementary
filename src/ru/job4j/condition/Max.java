@@ -6,15 +6,26 @@ public class Max {
         return rls;
     }
 
-    public double add(double firt, double second) {
-        return firt + second;
+    public double max(double firt, double second) {
+        double rls = (firt > second) ? firt : second;
+        return rls;
     }
 
-    public double add(double firt, double second, double third) {
-        return add(firt, (second + third));
+    public double max(double firt, double second, double third) {
+        double maxFirst = max(firt, second);
+        double rsl = (maxFirst > third) ? maxFirst : third;
+        return rsl;
+    }
+
+    public double max(double firt, double second, double third, double fourth) {
+        double maxFirst = max(firt, second);
+        double maxSecond = max(third, fourth);
+        double rsl = (maxFirst > maxSecond) ? maxFirst : maxSecond;
+        return rsl;
     }
 
     public static void main(String[] args) {
-        System.out.println(Max.max(5, 5));
+        Max m = new Max();
+        System.out.println(m.max(5, 10, 50, 100));
     }
 }

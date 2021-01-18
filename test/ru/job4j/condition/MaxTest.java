@@ -27,16 +27,23 @@ public class MaxTest {
     }
 
     @Test
-    public void whenAddTwoParam() {
-        Max max = new Max();
-        double rsl = max.add(2.0, 2.0);
+    public void whenMaxTwoParam() {
+        Max m = new Max();
+        double rsl = m.max(2.0, 4.0);
         assertThat(rsl, closeTo(4, 0.1));
     }
 
     @Test
-    public void whenAddThreeParam() {
-        Max max = new Max();
-        double rsl = max.add(5.0, 5.0, 10.0);
-        assertThat(rsl, closeTo(20, 0.1));
+    public void whenMaxThreeParam() {
+        Max m = new Max();
+        double rsl = m.max(5.0, 8.0, 10.0);
+        assertThat(rsl, closeTo(10, 0.1));
+    }
+
+    @Test
+    public void whenMaxFourParam() {
+        Max m = new Max();
+        double rsl = m.max(5.0, 8.0, 10.0, 50.0);
+        assertThat(rsl, closeTo(50, 0.1));
     }
 }
