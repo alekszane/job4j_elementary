@@ -13,11 +13,9 @@ hs_err_pid*
 
 .idea
 *.iml
+*.xml
 
 target
 
 out
-baseRefactoring.xml
-editor.codeinsight.xml
-find.xml
 *.log
