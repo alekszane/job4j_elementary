@@ -10,15 +10,16 @@ public class PriorityQueue {
      * Для вставки использовать add(int index, E value)
      * @param task задача
      */
-    public  void put(Task task) {
+
+    public void put(Task task) {
         int index = 0;
-        if (tasks != null) {
-            for (Task element : tasks) {
-                    if (task.getPriority() > element.getPriority()) {
-                        index ++;
-                    }
-                }
+        for (Task element : tasks) {
+            if (task.getPriority() > element.getPriority()) {
+                index++;
+            } else {
+                break;
             }
+        }
         this.tasks.add(index, task);
     }
 
